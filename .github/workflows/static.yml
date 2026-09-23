@@ -31,8 +31,6 @@ jobs:
       # Step 1: Install pnpm first so the Node setup can use it for caching
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9
 
       # Step 2: Set up Node.js environment
       - name: Set up Node.js
